@@ -95,7 +95,7 @@ public class CoralController
     else
     {
       view.endGame();
-      view.getEndingLabel().setText("Game over! \n\nYou made it to day " + model.getDay() + " \nwith $" + model.getMoney() + "and a " + model.getCoralHealth() + " coral. The final temperature was " + model.getTemperature() + "°F.");
+      view.getEndingLabel().setText("Game over! \n\nYou made it to day " + model.getDay() + " \nwith $" + model.getMoney() + " and a " + model.getCoralHealth() + " coral. The final temperature was " + model.getTemperature() + "°F.");
     }
 
 
